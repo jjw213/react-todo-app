@@ -40,6 +40,7 @@ function App() {
         />
         <button onClick={addTodo}>추가</button>
       </div>
+      <p style={{ marginBottom: '10px' }}>총 {todos.length}개의 할 일</p>
       <ul style={{ listStyle: 'none', padding: 0 }}>
         {todos.map(todo => (
           <li
